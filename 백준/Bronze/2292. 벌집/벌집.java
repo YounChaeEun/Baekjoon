@@ -5,9 +5,6 @@ public class Main {
 		Scanner scanner = new Scanner(System.in);
 		int num = scanner.nextInt();
 		
-		// BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		// int N = Integer.parseInt(br.readLine());
-		
 		int count = 1;
 		int a = 1;
 		
@@ -15,6 +12,8 @@ public class Main {
 			a += 6 * count;
 			count += 1;
 		}
+		
+		scanner.close();
 		System.out.print(count);
 	}
 }
